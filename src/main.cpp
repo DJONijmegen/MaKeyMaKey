@@ -42,6 +42,7 @@ void loop(void) {
 
     for (uint8_t l=0; l<6; l++) {
         charlieplex(l);
+        delay(200);
     }
-    delay(500);
+    
 }
