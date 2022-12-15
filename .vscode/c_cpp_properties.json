@@ -1,0 +1,60 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/denz/Projects/DJONijmegen/MaKeyMaKey/include",
+                "/home/denz/Projects/DJONijmegen/MaKeyMaKey/src",
+                "/home/denz/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/denz/.platformio/packages/framework-arduino-avr/variants/sparkfun_promicro",
+                "/home/denz/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/denz/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/denz/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/denz/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/denz/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/denz/Projects/DJONijmegen/MaKeyMaKey/include",
+                    "/home/denz/Projects/DJONijmegen/MaKeyMaKey/src",
+                    "/home/denz/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/denz/.platformio/packages/framework-arduino-avr/variants/sparkfun_promicro",
+                    "/home/denz/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/denz/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/denz/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/denz/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/denz/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60105",
+                "ARDUINO_AVR_MAKEYMAKEY",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x1B4F",
+                "USB_PID=0x2B74",
+                "USB_PRODUCT=\"SparkFun MaKey\"",
+                "USB_MANUFACTURER=\"SparkFun\"",
+                "__AVR_ATmega32U4__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/denz/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega32u4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

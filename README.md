@@ -1,2 +1,4 @@
 # MaKeyMaKey
-MaKeyMaKey for JMBrands
+
+MaKeyMaKey for [JMBrands](https://github.com/JMBrands)
+
